@@ -1,0 +1,101 @@
+body
+{
+
+	background-color : aqua;
+    
+}
+
+
+
+#appartements,#villas,#magasins
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	height: 200px;
+   
+    
+
+
+}
+
+.element, .element2 ,.element3 , img
+{	
+     width: 380px;
+     height: 160px;
+     margin-bottom: -30px;
+
+
+
+
+}
+
+
+h1
+{
+    color : blue;
+	margin-top: -160px;
+	text-align: center;
+	font-size: 24px;
+
+}
+
+
+a
+{
+    
+	text-decoration: none;
+}
+
+
+
+
+
+@media all and (max-width: 1024px)
+{
+
+  
+  #appartements,#villas,#magasins
+  {
+    
+     flex-direction: column; 
+       padding: 80px;
+       margin-top: 60px;
+       margin-left: -44px;
+
+
+
+  }
+
+
+  .element, .element2 ,.element3 , img
+{	
+    
+     width: 260px;
+     height: 120px;
+     margin: auto;
+     padding: 30px;
+   
+
+
+
+}
+
+h1 a 
+
+{
+
+	font-size: 17px;
+
+	margin-top: -65px;
+    text-align: center;
+	color: white;
+}
+
+
+
+
+
+
+}
